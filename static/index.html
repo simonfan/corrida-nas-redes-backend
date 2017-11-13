@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<form action="/_all/report" method="GET">
+		<select name="candidate">
+			<option value="_all">todos</option>
+			<option value="alckmin">alckmin</option>
+			<option value="bolsonaro">bolsonaro</option>
+			<option value="boulos">boulos</option>
+			<option value="ciro">ciro</option>
+			<option value="doria">doria</option>
+			<option value="huck">huck</option>
+			<option value="lula">lula</option>
+			<option value="manuela">manuela</option>
+			<option value="marina">marina</option>
+		</select>
+		<input type="text" name="q">
+
+		<button type="submit">Buscar</button>
+	</form>
+
+	<script type="text/javascript">
+		var form = document.querySelector('form')
+		var candidateInput = document.querySelector('select[name="candidate"]')
+		candidateInput.addEventListener('change', function () {
+			form.setAttribute('action', '/' + candidateInput.value + '/report')
+		})
+	</script>
+
+</body>
+</html>

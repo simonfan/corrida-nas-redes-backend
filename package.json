@@ -1,0 +1,22 @@
+{
+  "name": "lente-politica",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "csv-parse": "^2.0.0",
+    "elasticsearch": "^13.3.1",
+    "express": "^4.16.2",
+    "slug": "^0.9.1"
+  }
+}

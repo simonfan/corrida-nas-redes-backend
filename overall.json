@@ -1,0 +1,47 @@
+[
+    {
+        "candidateId": "alckmin",
+        "totalCount": 412,
+        "candidateLikes": 67464
+    },
+    {
+        "candidateId": "bolsonaro",
+        "totalCount": 2551,
+        "candidateLikes": 1571838
+    },
+    {
+        "candidateId": "boulos",
+        "totalCount": 120,
+        "candidateLikes": 35823
+    },
+    {
+        "candidateId": "ciro",
+        "totalCount": 1262,
+        "candidateLikes": 296334
+    },
+    {
+        "candidateId": "doria",
+        "totalCount": 955,
+        "candidateLikes": 175985
+    },
+    {
+        "candidateId": "huck",
+        "totalCount": 506,
+        "candidateLikes": 201035
+    },
+    {
+        "candidateId": "lula",
+        "totalCount": 5315,
+        "candidateLikes": 1540812
+    },
+    {
+        "candidateId": "manuela",
+        "totalCount": 152,
+        "candidateLikes": 51715
+    },
+    {
+        "candidateId": "marina",
+        "totalCount": 122,
+        "candidateLikes": 24743
+    }
+]
